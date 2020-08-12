@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Cat Facts</title>
+  <title>CatHub</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,31 +13,50 @@
   <link rel="shortcut icon" type="image/png" href="assets/favicon.ico" />
 </head>
 <body>
-	<div class="jumbotron jumbotron-fluid text-center bg-dark text-white">
-	  <h1 class ="display-3">Cat Facts</h1>
-	</div>
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-	  <ul class="navbar-nav">
-		<li class="nav-item active">
-		  <a class="nav-link" href="#">Cat Facts!</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="https://en.wikipedia.org/wiki/Cat">Cat Wiki</a>
-		</li>
-	  </ul>
-	</nav>
+<nav class="navbar navbar-expand-lg " id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><h4 class = text-light >CatHub</h4></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse navbar-light" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://en.wikipedia.org/wiki/Cat">Cat Wiki</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="bottomFunction()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 	<br>
 	<div class="container">
 	  <div class="row">
+		<div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading text-center">
+            <h1>Cat Facts</h1>
+            <span class="subheading">Top Five Upvoted Cat Facts</span>
+          </div>
+        </div>
 		<div class="col-sm-12  text-center">
 			<p>Enjoy our most upvoted cat facts!</p>
 		</div>
 		<div class="col-sm-12">
 			<div id="cardContainer"</div>
 		</div>
+		<div class="col-sm-12  text-center">
+			<h5>Submit your cat facts!</h5>
+			<p1>CatHub@catmedia.com</p1>
+			
+		</div>
+		<br>
 	</div>
 
 
 
 </body>
 </html>
+
