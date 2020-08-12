@@ -1,4 +1,4 @@
-﻿const ul = document.getElementById('cats'); // Get the list where we will place our authors
+const ul = document.getElementById('cats'); // Get the list where we will place our authors
 const url = 'https://cat-fact.herokuapp.com/facts'; 
 //runs scripts inside on site load
 
@@ -54,4 +54,9 @@ function appendData(data) {
 		mainContainer.appendChild(Break)
 	}
 	
+}
+
+function bottomFunction() {
+  document.body.scrollTop = 10000000; // For Safari
+  document.documentElement.scrollTop = 1000000; // For Chrome, Firefox, IE and Opera
 }
