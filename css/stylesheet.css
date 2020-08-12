@@ -1,0 +1,13 @@
+
+body{
+    background: url("https://blog.hostbaby.com/wp-content/uploads/2012/05/thumbnail_abstract.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.jumbotron{
+	margin:0px;
+	padding: 2px;
+}
