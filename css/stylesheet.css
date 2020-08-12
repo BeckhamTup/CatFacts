@@ -1,3 +1,4 @@
+
 /*body{
     background: url("https://blog.hostbaby.com/wp-content/uploads/2012/05/thumbnail_abstract.jpg") no-repeat center center; 
     -webkit-background-size: 100% 100%;
@@ -13,4 +14,8 @@
 */
 .navbar{
 	background-image: url('../assets/home-bg.jpg')
+}
+
+.space{
+	padding: 10px;
 }
